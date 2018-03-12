@@ -1,0 +1,27 @@
+#aso{
+    margin-top: -55px;
+}
+
+#ASO p:first-Child{
+    margin-top:17px;
+}
+
+.page-header{
+    border-bottom:none;
+    padding-top:40px;
+}
+
+.Main h1,#about h1,#require h1{
+    color: #3f3f3f;
+    font-size:24px;
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .Main h1 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .Main h2{
+        font-size: 15px;
+    }
+}
